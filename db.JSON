@@ -1,0 +1,113 @@
+{
+  "referer": ".pv-content__right-rail, .scaffold-layout__aside",
+  "ads": "#ads-container, .ad-banner, .pv-course-recommendations, .scaffold-layout__ad, .premium-upsell-link, .jobs-home-galapagos-promo-board",
+  "frames": [
+    [
+      "contactInfo",
+      "detail/contact-info"
+    ],
+    [
+      "activity",
+      "detail/recent-activity"
+    ]
+  ],
+  "services": [
+    /*
+      Perfil: "/in/"
+      Inicio: "/feed/"
+      Mi Red: "/mynetwork/"
+      Empleos: "/jobs/"
+      Mensajes: "/messaging/"
+      Notificaciones: /notifications/
+    */
+
+    {
+      "url":"/in/",
+      "name":"Perfil",
+      "cssMin":"",
+      "action":"Procesar $name$", //despues reemplazar el $name$
+      "script":"startProcess",
+      "menuAnchor":"", //Adjuntar menu a
+      "resultsAnchor":"", //Adjuntar Proceso a
+    }
+  ],  
+
+  "sections": [
+    {
+      "desc": "Header",
+      "sel": ".pv-top-card",
+      "name": "header"
+    },
+    {
+      "desc": "Open to work",
+      "sel": ".pv-open-to-carousel-card",
+      "name": "otw"
+    },
+    {
+      "desc": "Datos destacados",
+      "sel": ".pv-highlights-section",
+      "name": "highlights"
+    },
+    {
+      "desc": "Acerca De",
+      "sel": ".pv-about-section",
+      "name": "about"
+    },
+    {
+      "desc": "Destacado",
+      "sel": ".pab-featured-section",
+      "name": "featured"
+    },
+    {
+      "desc": "Actividad",
+      "sel": ".pv-recent-activity-section-v2",
+      "name": "activity"
+    },
+    {
+      "desc": "Experiencia",
+      "sel": "#experience-section",
+      "name": "experience"
+    },
+    {
+      "desc": "Educacion",
+      "sel": "#education-section",
+      "name": "education"
+    },
+    {
+      "desc": "Licencias y certificaciones",
+      "sel": "#certifications-section",
+      "name": "certification"
+    },
+    {
+      "desc": "Experiencia de voluntariado",
+      "sel": ".volunteering-section",
+      "name": "volunteering"
+    },
+    {
+      "desc": "Aptitudes y validaciones",
+      "sel": ".pv-skill-categories-section",
+      "name": "skillValidation"
+    },
+    {
+      "desc": "Recomendaciones",
+      "sel": ".pv-recommendations-section",
+      "name": "recommendation"
+    },
+    {
+      "desc": "Logros",
+      "sel": ".pv-accomplishments-section",
+      "name": "accomplishments"
+    },
+    {
+      "desc": "Intereses",
+      "sel": ".pv-interests-section",
+      "name": "interests"
+    },
+    {
+      "desc": "Causas",
+      "sel": ".pv-profile-section.mt4.p5",
+      "name": "causes"
+    },
+  ],
+  "title":".card-heading"
+}
